@@ -1,0 +1,14 @@
+{
+  "app.header": "Hi, I am Farhod a Front-end Web Developer",
+  "app.content": "Link to resume",
+  "app.header.home": "Home",
+  "app.header.about": "About",
+  "app.header.skills": "Skills",
+  "app.header.portfolio": "Portfolio",
+  "app.intro.download": "Download",
+  "app.about.aboutme": "About me",
+  "app.about.desc": "My name is Farhod, age: 23, Development for me is both a job and a hobby, so even outside of work I do development. I plan to become a Full Stack Middle Developer in 2 years.",
+  "app.portfolio.works": "My works",
+  "app.portfolio.more": "More",
+  "app.footer.desc": "Keep in touch with me on social media:"
+}

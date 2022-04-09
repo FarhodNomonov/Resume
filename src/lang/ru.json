@@ -1,0 +1,14 @@
+{
+  "app.header": "Привет, я Farhod, веб-разработчик веб-интерфейса.",
+  "app.header.home": "Главный",
+  "app.header.about": "Обо мне",
+  "app.header.skills": "Навыки",
+  "app.header.portfolio": "Портфолио",
+  "app.intro.download": "Скачать",
+  "app.content": "Ссылка на резюме",
+  "app.about.aboutme": "О себе",
+  "app.about.desc": "Меня зовут Фарход, возраст: 23 года, Разработка для меня и работа, и хобби, поэтому даже вне работы я занимаюсь разработкой. Я планирую стать Full Stack Middle Developer через 2 года.",
+  "app.portfolio.works": "Мои работы",
+  "app.portfolio.more": "Подробнее",
+  "app.footer.desc": "Оставайтесь на связи со мной в социальных сетях:"
+}
