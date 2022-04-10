@@ -26,7 +26,7 @@ function PortFolio() {
       id: "3",
       img: Chint,
       link: "https://app.chint.techdatasoft.uz/",
-      animation: "fade-right",
+      animation: "fade-left",
     },
     {
       id: "4",
@@ -36,21 +36,21 @@ function PortFolio() {
     },
     {
       id: "5",
-      img: Nura,
-      link: "https://nuragroup.uz/",
-      animation: "fade-left",
+      img: Steam,
+      link: "https://steamwallet.ru/",
+      animation: "fade-right",
     },
     {
       id: "6",
       img: Nura,
       link: "https://steamwallet.ru/",
-      animation: "fade-left",
+      animation: "fade-right",
     },
     {
       id: "6",
       img: Tiktok,
       link: "https://ducktik.netlify.app/",
-      animation: "fade-right",
+      animation: "fade-left",
     },
   ];
   return (
