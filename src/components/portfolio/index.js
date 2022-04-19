@@ -4,16 +4,19 @@ import Chint from "../../assets/img/Chint.png";
 import Bukhara from "../../assets/img/Bukhara.png";
 import Tiktok from "../../assets/img/TiktokDowload.png";
 import Nura from "../../assets/img/Nura.png";
-import Newly from "../../assets/img/newly.png";
+import Hsl from "../../assets/img/HSL.png";
 import Steam from "../../assets/img/steam.png";
+import Beshr from "../../assets/img/Beshr.png";
+import Nipon from "../../assets/img/Nipon.png";
+import Nuran from "../../assets/img/Nuran.png";
 import { FormattedMessage } from "react-intl";
 
 function PortFolio() {
   const Works = [
     {
       id: "1",
-      img: Newly,
-      link: "http://89.108.98.88/",
+      img: Hsl,
+      link: "https://hsl.techdatasoft.uz/",
       animation: "fade-right",
     },
     {
@@ -43,14 +46,33 @@ function PortFolio() {
     {
       id: "6",
       img: Nura,
-      link: "https://steamwallet.ru/",
+      link: "https://nuragroup.uz/",
       animation: "fade-right",
     },
     {
-      id: "6",
+      id: "7",
       img: Tiktok,
       link: "https://ducktik.netlify.app/",
       animation: "fade-left",
+    },
+    {
+      id: "8",
+      img: Beshr,
+      link: "https://beshr.techdatasoft.uz/",
+      animation: "fade-left",
+    },
+    {
+      id: "9",
+      img: Nipon,
+      link: "https://nipon.techdatasoft.uz/",
+      animation: "fade-right",
+    },
+
+    {
+      id: "10",
+      img: Nuran,
+      link: "https://nura.new.techdatasoft.uz/",
+      animation: "fade-right",
     },
   ];
   return (
