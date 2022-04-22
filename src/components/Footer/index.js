@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer_icons">
         <a
           target={"_blank"}
-          href="https://t.me/@Nomonov_Farhod"
+          href="https://t.me/Nomonov_Farhod"
           rel="noopener noreferrer"
         >
           <BsTelegram />
