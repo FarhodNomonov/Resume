@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header";
-import About from "../about";
+import About from "../About";
 import Intro from "./intro";
 import Skills from "../Skills";
 import Portfolio from "../Portfolio";
