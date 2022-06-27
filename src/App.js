@@ -5,7 +5,7 @@ function App() {
   React.useEffect(() => {
     AOS.init();
     AOS.refresh();
-  });
+  }, []);
   return (
     <div className="App">
       <Home />
