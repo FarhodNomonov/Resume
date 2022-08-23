@@ -3,7 +3,6 @@ import { AllSvg } from "./../Export/Svg";
 
 function index() {
   const {
-    BsInstagram,
     AiFillHtml5,
     AiFillGithub,
     DiCss3Full,
