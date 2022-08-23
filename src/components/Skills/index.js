@@ -52,8 +52,12 @@ function index() {
     <div id="skills" className="skills">
       {SkillData.map((data) => {
         return (
-          <div data-aos-duration="1500" data-aos={data.Animation} key={data.id} className="skills_card">
-            <p>Junior</p>
+          <div
+            data-aos-duration="1500"
+            data-aos={data.Animation}
+            key={data.id}
+            className="skills_card"
+          >
             <h1>{data.skillName}</h1>
             <div className="skills_percent">
               <section>

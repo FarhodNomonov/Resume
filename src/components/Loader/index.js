@@ -2,21 +2,22 @@ import React from "react";
 
 function Loader() {
   return (
-    <div className="loader" style={{
-      width: "100%",
-      height: "100%",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      backgroundColor: "rgba(0, 0, 0, 0.5)",
-      position: "fixed",
-      top: 0,
-      left: 0,
-      zIndex: 9999,
-      backdropFilter: "blur(10px)",
-    }}>
+    <div className="loader">
       <style>
         {`
+        .loader {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.5);
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 9999;
+          backdrop-filter: blur(10px);
+        }
         .lds-roller {
           display: inline-block;
           position: relative;
@@ -103,7 +104,7 @@ function Loader() {
         }
         `}
       </style>
-      <div class="lds-roller">
+      <div className="lds-roller">
         <div></div>
         <div></div>
         <div></div>
