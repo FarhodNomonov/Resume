@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./header";
-import About from "../About";
+import About from "../about";
 import Intro from "./intro";
 import Skills from "../Skills";
-import Portfolio from "../Portfolio";
+import Portfolio from "../portfolio";
 import Footer from "../Footer";
 import Loader from "../Loader";
 

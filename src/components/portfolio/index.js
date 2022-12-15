@@ -8,6 +8,9 @@ import Sarkor from "../../assets/img/Sarkor.png";
 import Beshr from "../../assets/img/Beshr.png";
 import Nipon from "../../assets/img/Nipon.png";
 import Nuran from "../../assets/img/Nuran.png";
+import InsureX from "../../assets/img/InsureX.png";
+
+
 
 function PortFolio() {
   const Works = [
@@ -58,6 +61,12 @@ function PortFolio() {
       id: "11",
       img: Sarkor,
       link: "http://sarkor.techdatasoft.uz/",
+      animation: "fade-left",
+    },
+    {
+      id: "12",
+      img: InsureX,
+      link: "https://insurextest.link/",
       animation: "fade-left",
     },
   ];
