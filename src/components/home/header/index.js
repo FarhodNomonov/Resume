@@ -21,6 +21,7 @@ export default function Header() {
         <Logo />
       </div>
       <nav className={Menu ? "active" : ""}>
+        <div className="border"></div>
         <a onClick={() => setMenu(false)} href={"#intro"}>
           <FormattedMessage id="app.header.home" />
         </a>
