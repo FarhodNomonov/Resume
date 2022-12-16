@@ -9,8 +9,7 @@ import Beshr from "../../assets/img/Beshr.png";
 import Nipon from "../../assets/img/Nipon.png";
 import Nuran from "../../assets/img/Nuran.png";
 import InsureX from "../../assets/img/InsureX.png";
-
-
+import Team from "../../assets/img/team-us.png";
 
 function PortFolio() {
   const Works = [
@@ -67,7 +66,13 @@ function PortFolio() {
       id: "12",
       img: InsureX,
       link: "https://insurextest.link/",
-      animation: "fade-left",
+      animation: "fade-right",
+    },
+    {
+      id: "13",
+      img: Team,
+      link: "https://techdatasoft.uz/en/home",
+      animation: "fade-right",
     },
   ];
   return (
