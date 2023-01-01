@@ -92,7 +92,7 @@ function Loader() {
         }
         `}
       </style>
-      <span class="loader_content"></span>
+      <span className="loader_content"></span>
     </div>
   );
 }

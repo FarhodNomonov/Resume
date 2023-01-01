@@ -6,7 +6,7 @@ export const InsureX = () => {
       viewBox="0 0 149 112"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="sc-jOhDuK cVsZNH"
+      className="sc-jOhDuK cVsZNH"
     >
       <path
         d="M24.5421 100.063V111.981H22.6002V100.49C22.6002 99.9491 22.3135 99.8441 22.1286 99.8441H20.8186V111.978H18.889V99.8441H18.2694V98.0586H22.7944C23.6328 98.0957 24.5421 98.4849 24.5421 100.063Z"
