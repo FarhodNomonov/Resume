@@ -5,7 +5,6 @@ import Chint from "../../assets/img/Chint.png";
 import Bukhara from "../../assets/img/Bukhara.png";
 import Nura from "../../assets/img/Nura.png";
 import Sarkor from "../../assets/img/Sarkor.png";
-import InsureX from "../../assets/img/InsureX.png";
 import Team from "../../assets/img/team-us.png";
 
 function PortFolio() {
