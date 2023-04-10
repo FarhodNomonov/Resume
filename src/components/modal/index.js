@@ -12,9 +12,9 @@ function Modal({ onClose }) {
     const values = data.target;
     const botMessege = `
               nomonovfarhod.uz 🎯%0A
-              Ismi: ${values.first_name.value}%0A
+              Name: ${values.first_name.value}%0A
               Email: ${values.email.value}%0A
-              Xabar: ${values.message.value}%0A
+              Message: ${values.message.value}%0A
             `;
     setLoader(true);
     axios({
