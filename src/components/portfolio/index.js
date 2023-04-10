@@ -6,6 +6,8 @@ import Bukhara from "../../assets/img/Bukhara.png";
 import Nura from "../../assets/img/Nura.png";
 import Sarkor from "../../assets/img/Sarkor.png";
 import Team from "../../assets/img/team-us.png";
+import Crm from "../../assets/img/crm.png";
+
 
 function PortFolio() {
   const Works = [
@@ -37,13 +39,19 @@ function PortFolio() {
       id: "11",
       img: Sarkor,
       link: "http://sarkor.techdatasoft.uz/",
-      animation: "fade-left",
+      animation: "fade-right",
     },
     {
       id: "13",
       img: Team,
       link: "https://techdatasoft.uz/en/home",
       animation: "fade-right",
+    },
+    {
+      id: "10",
+      img: Crm,
+      link: "https://crm.techdatasoft.uz/",
+      animation: "fade-left",
     },
   ];
   return (

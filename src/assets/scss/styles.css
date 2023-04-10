@@ -331,6 +331,11 @@
   cursor: pointer;
   transition: 0.3s ease;
 }
+@media screen and (max-width: 426px) {
+  * body .intro .intro_title .btn_flex button {
+    font-size: 20px;
+  }
+}
 * body .intro .intro_title .intro_icons {
   margin-top: 40px;
 }
