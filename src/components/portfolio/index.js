@@ -5,9 +5,6 @@ import Chint from "../../assets/img/Chint.png";
 import Bukhara from "../../assets/img/Bukhara.png";
 import Nura from "../../assets/img/Nura.png";
 import Sarkor from "../../assets/img/Sarkor.png";
-import Beshr from "../../assets/img/Beshr.png";
-import Nipon from "../../assets/img/Nipon.png";
-import Nuran from "../../assets/img/Nuran.png";
 import InsureX from "../../assets/img/InsureX.png";
 import Team from "../../assets/img/team-us.png";
 
@@ -38,35 +35,10 @@ function PortFolio() {
       animation: "fade-left",
     },
     {
-      id: "8",
-      img: Beshr,
-      link: "https://beshr.techdatasoft.uz/",
-      animation: "fade-right",
-    },
-    {
-      id: "9",
-      img: Nipon,
-      link: "https://nipon.techdatasoft.uz/",
-      animation: "fade-right",
-    },
-
-    {
-      id: "10",
-      img: Nuran,
-      link: "https://nura.new.techdatasoft.uz/",
-      animation: "fade-left",
-    },
-    {
       id: "11",
       img: Sarkor,
       link: "http://sarkor.techdatasoft.uz/",
       animation: "fade-left",
-    },
-    {
-      id: "12",
-      img: InsureX,
-      link: "https://insurextest.link/",
-      animation: "fade-right",
     },
     {
       id: "13",

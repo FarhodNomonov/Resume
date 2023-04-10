@@ -1,4 +1,5 @@
 import React from "react";
+import { Toaster } from 'react-hot-toast';
 import AOS from "aos";
 import Home from "./components/home";
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Home />
+      <Toaster />
     </div>
   );
 }

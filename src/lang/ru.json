@@ -1,5 +1,12 @@
 {
   "app.header": "Привет, я Фарход, веб-разработчик веб-интерфейса.",
+  "app.contactme": "Свяжитесь со мной",
+  "app.contactme_scc": "Отправлено",
+  "app.name": "Полное имя",
+  "app.email": "Email",
+  "app.desc": "Описание",
+  "app.send": "Отправить",
+  "app.contactme_err": "Сообщение не отправлено",
   "app.header.home": "Главный",
   "app.header.about": "Обо мне",
   "app.header.skills": "Навыки",

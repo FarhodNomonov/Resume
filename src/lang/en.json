@@ -1,5 +1,12 @@
 {
   "app.header": "Hi, I am Farhod a Front-end Web Developer",
+  "app.contactme": "Contact me",
+  "app.name": "Full name",
+  "app.email": "Email",
+  "app.send": "Send",
+  "app.desc": "Description",
+  "app.contactme_scc": "Sended",
+  "app.contactme_err": "No message sent",
   "app.content": "Link to resume",
   "app.header.home": "Home",
   "app.header.about": "About",

@@ -2,8 +2,19 @@ import React from "react";
 import IntroImg from "../../../assets/img/intro_logo.jpg";
 import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { FormattedMessage } from "react-intl";
+import Modal from "../../modal";
 
 function Intro() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleModal = () => {
+    setOpen(true);
+  };
+
   return (
     <div id="intro" className="intro">
       <div className="intro_title">
@@ -13,11 +24,18 @@ function Intro() {
         <p>
           <FormattedMessage id="app.content" />
         </p>
-        <a href="/cv/NomonovFarxod.pdf" download="Resume">
-          <button>
-            <FormattedMessage id="app.intro.download" />
+        <div className="btn_flex">
+          <a href="/cv/NomonovFarxod.pdf" download="Resume">
+            <button>
+              <FormattedMessage id="app.intro.download" />
+            </button>
+          </a>
+          <button onClick={handleModal}>
+            <FormattedMessage id="app.contactme" />
           </button>
-        </a>
+        </div>
+
+        {open && <Modal onClose={handleClose} />}
         <div className="intro_icons">
           <a
             target={"_blank"}

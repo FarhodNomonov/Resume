@@ -1,5 +1,12 @@
 {
   "app.header": "Salom, men Farhod Front-End Veb-Dasturchiman",
+  "app.contactme": "Men bilan bog'laning",
+  "app.contactme_scc": "Yuborilgan",
+  "app.name": "To'liq ism",
+  "app.email": "Email",
+  "app.desc": "Tavsif",
+  "app.send": "Yuborish",
+  "app.contactme_err": "Xabar yuborilmadi",
   "app.header.home": "Bosh Sahifa",
   "app.header.about": "Haqida",
   "app.header.skills": "Ko'nikmalar",
