@@ -1,5 +1,5 @@
 import React from "react";
-import IntroImg from "../../../assets/img/intro_logo.jpg";
+import IntroImg from "../../../assets/img/intro_logo.png";
 import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { FormattedMessage } from "react-intl";
 import Modal from "../../modal";

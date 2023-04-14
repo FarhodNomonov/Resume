@@ -236,7 +236,7 @@
         padding: 10px 20px;
       }
       .intro_title {
-        width: 50%;
+        width: 60%;
         @media screen and (max-width: 1025px) {
           width: 100%;
         }
@@ -356,7 +356,9 @@
         }
       }
       .intro_logo {
-        width: 50%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
         @media screen and (max-width: 1025px) {
           width: 70%;
         }
@@ -367,8 +369,12 @@
           width: 100%;
         }
         img {
-          width: 100%;
+          width: 70%;
+          height: 100%;
           border-radius: 20px;
+          @media screen and (max-width: 1025px) {
+            width: 100%;
+          }
         }
       }
     }

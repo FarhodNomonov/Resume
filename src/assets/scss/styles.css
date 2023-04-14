@@ -249,7 +249,7 @@
   }
 }
 * body .intro .intro_title {
-  width: 50%;
+  width: 60%;
 }
 @media screen and (max-width: 1025px) {
   * body .intro .intro_title {
@@ -377,7 +377,9 @@
   transform: scale(1.3);
 }
 * body .intro .intro_logo {
-  width: 50%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 1025px) {
   * body .intro .intro_logo {
@@ -395,8 +397,14 @@
   }
 }
 * body .intro .intro_logo img {
-  width: 100%;
+  width: 70%;
+  height: 100%;
   border-radius: 20px;
+}
+@media screen and (max-width: 1025px) {
+  * body .intro .intro_logo img {
+    width: 100%;
+  }
 }
 * body .about {
   padding: 10px 40px;

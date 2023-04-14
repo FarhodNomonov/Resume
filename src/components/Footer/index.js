@@ -19,7 +19,7 @@ function Footer() {
         </a>
         <a
           target={"_blank"}
-          href={"https://www.instagram.com/farik_snu/"}
+          href={"https://www.instagram.com/nomonov_farhod/"}
           rel="noopener noreferrer"
         >
           <BsInstagram />
