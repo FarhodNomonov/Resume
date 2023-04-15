@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 import { FormattedMessage } from "react-intl";
-import Loader from "../Loader";
+import Loader from "../loader";
 
 function Modal({ onClose }) {
   const [loader, setLoader] = React.useState(false);

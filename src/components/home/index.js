@@ -2,10 +2,10 @@ import React from "react";
 import Header from "./header";
 import About from "../about";
 import Intro from "./intro";
-import Skills from "../Skills";
+import Skills from "../skills";
 import Portfolio from "../portfolio";
-import Footer from "../Footer";
-import Loader from "../Loader";
+import Footer from "../footer";
+import Loader from "../ui/loader";
 
 export default function Home() {
   const [isLoading, setIsLoading] = React.useState(true);

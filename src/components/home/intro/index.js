@@ -2,7 +2,7 @@ import React from "react";
 import IntroImg from "../../../assets/img/intro_logo.png";
 import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { FormattedMessage } from "react-intl";
-import Modal from "../../modal";
+import Modal from "../../ui/modal";
 
 function Intro() {
   const [open, setOpen] = React.useState(false);

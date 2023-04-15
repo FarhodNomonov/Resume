@@ -1,14 +1,9 @@
 import React from "react";
-import { AllSvg } from "./../Export/Svg";
+import { AllSvg } from "../export/Svg";
 
 function index() {
-  const {
-    AiFillHtml5,
-    AiFillGithub,
-    DiCss3Full,
-    DiReact,
-    SiJavascript,
-  } = AllSvg;
+  const { AiFillHtml5, AiFillGithub, DiCss3Full, DiReact, SiJavascript } =
+    AllSvg;
 
   const SkillData = [
     {
