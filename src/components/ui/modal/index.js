@@ -89,7 +89,7 @@ function Modal({ onClose }) {
                   {...register("message")}
                   cols="30"
                   rows="5"
-                  value={placeholder}
+                  defaultValue={placeholder}
                 />
               )}
             </FormattedMessage>
