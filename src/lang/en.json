@@ -17,5 +17,6 @@
   "app.about.desc": "Hi! My name is Farkhod, I am a Front-end developer with more than 2 years of experience. I speak HTML, CSS, JavaScript, and React frameworks. Worked in projects for companies such as Start-Rise and Tech-Data-Soft. I like to create beautiful and functional interfaces that help improve the lives of users. I will be glad to cooperate and new projects!",
   "app.portfolio.works": "My works",
   "app.portfolio.more": "More",
-  "app.footer.desc": "Keep in touch with me on social media:"
+  "app.footer.desc": "Keep in touch with me on social media:",
+  "app.tlg.msg" : "Hello mr.Farkhod"
 }

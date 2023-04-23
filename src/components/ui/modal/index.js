@@ -1,34 +1,46 @@
 import React from "react";
-import axios from "axios";
 import { toast } from "react-hot-toast";
+import { useForm } from "react-hook-form";
 import { FormattedMessage } from "react-intl";
 import Loader from "../loader";
+import Services from "../../../services/api";
+import CONSTANTS from "../../../config/constants";
 
 function Modal({ onClose }) {
   const [loader, setLoader] = React.useState(false);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
+
+  const errorsStyle = {
+    true: {
+      border: "1px solid red",
+    },
+    false: {},
+  };
+
+  const { TELEGRAM_API, BOT_TOKEN, CHAT_ID, BOT_CHAT_TYPE } = CONSTANTS;
 
   const onSubmit = (data) => {
-    data.preventDefault();
-    const values = data.target;
-    const botMessege = `
-              nomonovfarhod.uz 🎯%0A
-              Name: ${values.first_name.value}%0A
-              Email: ${values.email.value}%0A
-              Message: ${values.message.value}%0A
-            `;
+    const [w, f, e, m] = [
+      `nomonovfarhod.uz 🎯%0A`,
+      `Name: ${data.first_name}%0A`,
+      `Email: ${data.email}%0A`,
+      `Message: ${data.message}%0A`,
+    ];
+    const botMessege = w + f + e + m;
     setLoader(true);
-    axios({
-      method: "get",
-      url: `https://api.telegram.org/bot6069404040:AAHSsCrtvwYM_3s1GAq6H_7tiLpWfG_Z8YY/sendMessage?chat_id=889498109&text=${botMessege}&parse_mode=HTML`,
-    }).then(({ data }) => {
+    Services.getRequest(
+      `${TELEGRAM_API}/${BOT_TOKEN}/sendMessage?${CHAT_ID}&text=${botMessege}&${BOT_CHAT_TYPE}`
+    ).then(({ data }) => {
       if (data?.ok) {
-        values.first_name.value = "";
-        values.email.value = "";
-        values.message.value = "";
         toast.success(<FormattedMessage id="app.contactme_scc" />);
         setLoader(false);
-        console.log(botMessege);
-        onClose()
+        onClose();
+        reset();
       }
       if (!data?.ok) {
         toast.error(<FormattedMessage id="app.contactme_err" />);
@@ -36,7 +48,7 @@ function Modal({ onClose }) {
       }
     });
   };
-  
+
   return (
     <>
       {loader && <Loader />}
@@ -50,19 +62,38 @@ function Modal({ onClose }) {
               <FormattedMessage id="app.contactme" />
             </h2>
           </div>
-          <form onSubmit={onSubmit}>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <label>
               <FormattedMessage id="app.name" />
             </label>
-            <input type="text" name="first_name" />
+            <input
+              type="text"
+              {...register("first_name", { required: true })}
+              style={errorsStyle[!!errors.first_name]}
+            />
             <label>
               <FormattedMessage id="app.email" />
             </label>
-            <input type="text" name="email" />
+            <input
+              type="email"
+              {...register("email", { required: true })}
+              style={errorsStyle[!!errors.email]}
+            />
             <label>
               <FormattedMessage id="app.desc" />
             </label>
-            <textarea name="message" cols="30" rows="5"></textarea>
+
+            <FormattedMessage id="app.tlg.msg" defaultMessage="search">
+              {(placeholder) => (
+                <textarea
+                  {...register("message")}
+                  cols="30"
+                  rows="5"
+                  value={placeholder}
+                />
+              )}
+            </FormattedMessage>
+
             <button>
               <FormattedMessage id="app.send" />
             </button>

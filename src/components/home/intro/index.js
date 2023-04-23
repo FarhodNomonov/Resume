@@ -1,10 +1,11 @@
 import React from "react";
 import IntroImg from "../../../assets/img/intro_logo.png";
 import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import Modal from "../../ui/modal";
 
 function Intro() {
+  const { locale: lang = "Ru" } = useIntl();
   const [open, setOpen] = React.useState(false);
 
   const handleClose = () => {
@@ -25,7 +26,7 @@ function Intro() {
           <FormattedMessage id="app.content" />
         </p>
         <div className="btn_flex">
-          <a href="/cv/NomonovFarxod.pdf" download="Resume">
+          <a href={`/cv/NomonovFarxod${lang}.pdf`} download={`Resume-${lang}`}>
             <button>
               <FormattedMessage id="app.intro.download" />
             </button>
