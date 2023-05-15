@@ -8,8 +8,6 @@ export const Context = React.createContext();
 
 const local = navigator.language;
 
-console.log(navigator,"local");
-
 let lang;
 if (local === "En") {
   lang = English;
