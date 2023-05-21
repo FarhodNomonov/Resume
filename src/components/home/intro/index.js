@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo, useState } from "react";
 import IntroImg from "../../../assets/img/intro_logo.png";
 import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { FormattedMessage, useIntl } from "react-intl";
@@ -6,8 +6,8 @@ import Modal from "../../ui/modal";
 
 function Intro() {
   const { locale = "Ru" } = useIntl();
-  const [open, setOpen] = React.useState(false);
-  
+  const [open, setOpen] = useState(false);
+
   const lang = useMemo(() => locale.split("-")[0], [locale]);
 
   const handleClose = () => {
@@ -17,8 +17,6 @@ function Intro() {
   const handleModal = () => {
     setOpen(true);
   };
-
-
 
   return (
     <div id="intro" className="intro">

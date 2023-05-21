@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Header from "./header";
 import About from "../about";
 import Intro from "./intro";
@@ -8,7 +8,7 @@ import Footer from "../footer";
 import Loader from "../ui/loader";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = React.useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   setTimeout(() => {
     setIsLoading(false);

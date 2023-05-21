@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState, createContext } from "react";
 import { IntlProvider } from "react-intl";
 import Uzbek from "../lang/uz.json";
 import Russian from "../lang/ru.json";
 import English from "../lang/en.json";
 
-export const Context = React.createContext();
+export const Context = createContext();
 
 const local = navigator.language;
 

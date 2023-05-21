@@ -1,4 +1,3 @@
-import React from "react";
 import { AllSvg } from "../export/Svg";
 
 function index() {

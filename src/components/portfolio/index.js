@@ -1,4 +1,3 @@
-import React from "react";
 import { FormattedMessage } from "react-intl";
 import TherePublick from "../../assets/img/therepublick.png";
 import Chint from "../../assets/img/Chint.png";

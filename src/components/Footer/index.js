@@ -1,4 +1,3 @@
-import React from "react";
 import { AllSvg, Github } from "./../export/Svg";
 import { FormattedMessage } from "react-intl";
 

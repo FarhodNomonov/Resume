@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useForm } from "react-hook-form";
 import { FormattedMessage } from "react-intl";
@@ -7,7 +7,7 @@ import Services from "../../../services/api";
 import CONSTANTS from "../../../config/constants";
 
 function Modal({ onClose }) {
-  const [loader, setLoader] = React.useState(false);
+  const [loader, setLoader] = useState(false);
   const {
     register,
     handleSubmit,
