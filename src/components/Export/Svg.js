@@ -86,6 +86,7 @@ export const AllSvg = {
   DiReact,
   SiJavascript,
 };
+
 export const TherePublickLogo = () => {
   return (
     <svg
