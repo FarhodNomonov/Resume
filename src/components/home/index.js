@@ -4,7 +4,7 @@ import About from "../about";
 import Intro from "./intro";
 import Skills from "../Skills";
 import Portfolio from "../portfolio";
-import Footer from "../footer";
+import Footer from "./footer";
 import Loader from "../ui/loader";
 
 export default function Home() {
