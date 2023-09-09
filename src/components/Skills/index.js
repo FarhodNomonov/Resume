@@ -1,4 +1,4 @@
-import { AllSvg } from "../export/svg";
+import { AllSvg } from "../../assets/export/icons";
 
 function index() {
   const { AiFillHtml5, AiFillGithub, DiCss3Full, DiReact, SiJavascript } =

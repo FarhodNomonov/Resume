@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Logo, Github, AllSvg } from "../../export/svg";
+import { Logo, Github, AllSvg } from "../../../assets/export/icons";
 import { Context } from "../../Wrapper";
 import { FormattedMessage } from "react-intl";
 

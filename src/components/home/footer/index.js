@@ -1,4 +1,4 @@
-import { AllSvg, Github } from "../../export/svg";
+import { AllSvg, Github } from "../../../assets/export/icons";
 import { FormattedMessage } from "react-intl";
 
 function Footer() {
